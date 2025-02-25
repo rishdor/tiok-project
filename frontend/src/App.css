@@ -1,0 +1,181 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+nav {
+  background-color: #343a40;
+  padding: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.App {
+  padding: 20px;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+th {
+  background-color: #f8f9fa;
+}
+
+.filter-container,
+.limit-container {
+  margin-bottom: 20px;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.filter-container input,
+.limit-container input {
+  padding: 5px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.filter-container label,
+.limit-container label {
+  font-size: 1rem;
+  color: #333;
+}
+
+.photos-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.photo-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: calc(20% - 20px);
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.photo-item img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.post-container {
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  max-width: 800px;
+}
+
+.single-post {
+  margin-bottom: 20px;
+}
+
+.post-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.post-written-by {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.post-body {
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.6;
+}
+
+.comments {
+  margin-top: 20px;
+  padding-top: 10px;
+  border-top: 1px solid #ccc;
+}
+
+.comments span {
+  font-weight: bold;
+  color: #333;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.comments-container {
+  margin-left: 20px;
+}
+
+.comment {
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: 1px dashed #ddd;
+}
+
+.comment-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #222;
+}
+
+.comment-body {
+  font-size: 0.95rem;
+  color: #555;
+  margin: 5px 0;
+}
+
+.comment-email {
+  font-size: 0.85rem;
+  color: #888;
+}
+
+.posts-page {
+  max-width: 900px;
+  margin: 0 auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 20px;
+}
+
+button {
+  padding: 6px 12px;
+  font-size: 1rem;
+  background-color: #598c65;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #32613d;
+}

@@ -1,0 +1,10 @@
+pytest
+coverage
+httpx
+pytest-cov
+locust
+schemathesis
+fastapi
+uvicorn
+requests
+pydantic

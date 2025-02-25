@@ -1,0 +1,45 @@
+---------- coverage: platform win32, python 3.12.8-final-0 -----------
+Name                  Stmts   Miss  Cover   Missing
+---------------------------------------------------
+backend\__init__.py       0      0   100%
+backend\main.py          76      0   100%
+---------------------------------------------------
+TOTAL                    76      0   100%
+
+
+------------|---------|----------|---------|---------|
+File        | % Stmts | % Branch | % Funcs | % Lines | 
+------------|---------|----------|---------|---------|
+All files   |   90.09 |       85 |    80.7 |   90.74 | 
+ src        |     100 |      100 |     100 |     100 | 
+  App.js    |     100 |      100 |     100 |     100 | 
+ src/pages  |      90 |       85 |   80.35 |   90.65 | 
+  Albums.js |   82.75 |      100 |   70.58 |   85.71 | 
+  Home.js   |     100 |      100 |     100 |     100 | 
+  Photos.js |    92.1 |    83.33 |      80 |    92.1 | 
+  Posts.js  |   92.85 |    83.33 |   86.95 |    92.5 | 
+------------|---------|----------|---------|---------|
+
+============================ Schemathesis test session starts ===========================
+Schema location: file:///C:/Users/doros/alltheshit/projects/tiok/web_app/openapi.json    
+Base URL: http://localhost:8000
+Specification version: Open API 3.1.0
+Random seed: 71192041918925734551934437798739156198
+Workers: 1
+Collected API operations: 7
+Collected API links: 0
+API probing: SUCCESS
+Schema analysis: SKIP
+
+GET /api/posts .                                                                   [ 14%]
+GET /api/users .                                                                   [ 28%]
+GET /api/comments .                                                                [ 42%]
+GET /api/albums .                                                                  [ 57%]
+GET /api/photos .                                                                  [ 71%]
+GET /api/limit .                                                                   [ 85%]
+POST /api/limit .                                                                  [100%]
+
+======================================== SUMMARY ========================================
+
+Performed checks:
+    not_a_server_error                    205 / 205 passed          PASSED

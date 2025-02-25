@@ -1,0 +1,13 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "JSONPlaceholder Photo",
+  "type": "object",
+  "required": ["albumId", "id", "title", "url", "thumbnailUrl"],
+  "properties": {
+    "albumId": { "type": "integer" },
+    "id": { "type": "integer" },
+    "title": { "type": "string" },
+    "url": { "type": "string" },
+    "thumbnailUrl": { "type": "string" }
+  }
+}
