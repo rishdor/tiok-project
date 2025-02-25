@@ -2,6 +2,7 @@ import requests
 import json
 from jsonschema import validate
 
+
 # external api tests (jsonplaceholder)
 def test_jsonplaceholder_posts_contract():
     with open('schemas/post_schema.json') as f:
@@ -145,7 +146,8 @@ def test_get_limit_contract():
 
 def test_set_limit_contract():
     new_limit = {"limit": 5}
-    response = requests.post("http://localhost:8000/api/limit", json=new_limit)
+    response = requests.post("http://localhost:8000/api/limit", 
+                            json=new_limit)
     assert response.status_code == 200
 
     limit = response.json()
