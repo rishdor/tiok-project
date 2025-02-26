@@ -1,0 +1,32 @@
+Welcome to the profile statistics browser.
+profile_results.prof% profile_results.prof% Wed Feb 26 19:01:34 2025    profile_results.prof
+
+         1836544 function calls (1693560 primitive calls) in 100.794 seconds
+
+   Ordered by: internal time
+   List reduced from 4231 to 20 due to restriction <20>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+     3389   90.390    0.027   90.390    0.027 {built-in method _overlapped.GetQueuedCompletionStatus}
+  344/304    1.996    0.006    1.721    0.006 {method 'read' of '_ssl._SSLSocket' objects}
+    65/58    1.887    0.029    1.758    0.030 {method 'connect' of '_socket.socket' objects}
+    64/57    1.868    0.029    1.742    0.031 {method 'do_handshake' of '_ssl._SSLSocket' objects}
+     1966    0.284    0.000    0.284    0.000 {built-in method nt.stat}
+        1    0.275    0.275    0.275    0.275 {method 'load_verify_locations' of '_ssl._SSLContext' objects}
+    64/61    0.133    0.002    0.134    0.002 {built-in method _socket.getaddrinfo}
+     2790    0.126    0.000  218.271    0.078 C:\Python312\Lib\asyncio\base_events.py:1915(_run_once)
+269876/268657    0.109    0.000    0.134    0.000 {built-in method builtins.isinstance}
+  160/158    0.076    0.000    0.076    0.000 {method 'write' of '_io.TextIOWrapper' objects}
+     2791    0.063    0.000   90.580    0.032 C:\Python312\Lib\asyncio\windows_events.py:761(_poll)
+      403    0.063    0.000    0.063    0.000 {built-in method _io.open_code}
+      403    0.062    0.000    0.062    0.000 {built-in method marshal.loads}
+    740/1    0.054    0.000  100.802  100.802 {built-in method builtins.exec}
+      403    0.049    0.000    0.112    0.000 <frozen importlib._bootstrap_external>:755(_compile_bytecode)
+       41    0.049    0.001    0.050    0.001 {built-in method pydantic_core._pydantic_core.validate_core_schema}
+26084/417    0.049    0.000    0.184    0.000 C:\Users\doros\alltheshit\projects\tiok\.venv\Lib\site-packages\pydantic\_internal\_core_utils.py:194(_walk)
+  605/127    0.048    0.000    0.088    0.001 C:\Python312\Lib\re\_parser.py:512(_parse)
+3729/3182    0.043    0.000   37.529    0.012 {method 'run' of '_contextvars.Context' objects}
+     4587    0.042    0.000    0.066    0.000 <frozen importlib._bootstrap_external>:96(_path_join)
+
+
+profile_results.prof% Goodbye.
