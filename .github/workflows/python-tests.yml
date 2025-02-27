@@ -18,15 +18,14 @@ jobs:
           key: ${{ runner.os }}-pip-${{ hashFiles('web_app/requirements.txt') }}
           restore-keys: ${{ runner.os }}-pip-
 
-      - name: Set up working directory
-        run: cd web_app
-
       - name: Install dependencies
+        working-directory: web_app
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
       - name: Run tests with coverage
+        working-directory: web_app
         run: |
           pip install coverage
           coverage run -m unittest discover -s tests
